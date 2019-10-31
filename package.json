@@ -1,6 +1,6 @@
 {
   "name": "are-you-duplicated",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Detect if multiple versions exist in node_modules/**/* of one package.",
   "main": "index.js",
   "bin": {
