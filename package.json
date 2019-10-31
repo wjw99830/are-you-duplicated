@@ -10,7 +10,7 @@
   "author": "wangjiwei <wangjiwei@youzan.com>",
   "license": "MIT",
   "scripts": {
-    "patch": "npm version patch && npm publish --access=public --registry=https://registry.npmjs.org"
+    "patch": "npm version patch && npm publish --access=public --registry=https://registry.npmjs.org && git push"
   },
   "dependencies": {}
 }
