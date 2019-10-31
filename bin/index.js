@@ -45,7 +45,7 @@ function searchPackage(dir) {
 function searchModules(dir) {
   if (!existsSync(dir)) {
     console.warn(`There is no <${MODULES}> in this directory.`);
-    return;
+    process.exit();
   }
   const s = statSync(dir);
   if (!s.isDirectory()) {
@@ -57,9 +57,7 @@ function searchModules(dir) {
     searchPackage(dirpath);
   }
 }
-
 searchModules('./' + MODULES);
-
 if (count === 1) {
   console.log(`There's no this package <${PACKAGE}>. Are you sure it's installed?`);
 }
