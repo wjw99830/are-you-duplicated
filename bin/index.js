@@ -39,7 +39,7 @@ function searchPackage(dir) {
 
 function searchModules(dir) {
   if (!existsSync(dir)) {
-    console.warn(`There is no <${modules}> in this directory.`);
+    console.warn(`There is no <${MODULES}> in this directory.`);
     return;
   }
   const s = statSync(dir);
