@@ -9,6 +9,10 @@ const MODULES = 'node_modules';
 const { argv } = process;
 
 const PACKAGE = argv[2];
+if (!PACKAGE) {
+  console.log(`Package name is required.
+e.g. dup react`);
+}
 
 
 let count = 1;
