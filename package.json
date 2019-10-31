@@ -3,7 +3,9 @@
   "version": "0.1.1",
   "description": "Detect if multiple versions exist in node_modules/**/* of one package.",
   "main": "index.js",
-  "bin": "dup",
+  "bin": {
+    "dup": "./bin/index.js"
+  },
   "repository": "https://github.com/wjw99830/are-you-duplicated.git",
   "author": "wangjiwei <wangjiwei@youzan.com>",
   "license": "MIT",
