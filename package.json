@@ -1,0 +1,14 @@
+{
+  "name": "are-you-duplicated",
+  "version": "0.1.0",
+  "description": "Detect if multiple versions exist in node_modules/**/* of one package.",
+  "main": "index.js",
+  "bin": "dup",
+  "repository": "https://github.com/wjw99830/are-you-duplicated.git",
+  "author": "wangjiwei <wangjiwei@youzan.com>",
+  "license": "MIT",
+  "scripts": {
+    "patch": "npm version patch && npm publish --access=public --registry=https://registry.npmjs.org"
+  },
+  "dependencies": {}
+}
