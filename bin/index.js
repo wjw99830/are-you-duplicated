@@ -12,6 +12,7 @@ const PACKAGE = argv[2];
 if (!PACKAGE) {
   console.log(`Package name is required.
 e.g. dup react`);
+  return;
 }
 
 
